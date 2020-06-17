@@ -5,6 +5,6 @@ import SplashPublishPlugin
 
 try Blog().publish(
     withTheme: .blog,
-    additionalSteps: [.deploy(using: .gitHub("BeauNouvelle/BeauNouvelle.github.io/blog"))],
+    additionalSteps: [.deploy(using: .gitHub("BeauNouvelle/blog"))],
     plugins: [.splash(withClassPrefix: "")]
 )
